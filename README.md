@@ -14,12 +14,15 @@ Android Dynamic loading(Android动态加载技术汇总)
 6. [AndFix](https://github.com/alibaba/AndFix):
 
 7. [Android动态修复实践](http://www.sunmoonblog.com/blog/2015/12/02/load-dex/)：本文主要介绍了如何使用Nuwa生成补丁包以及如何使用dalvik_patch的DexInjector加载补丁包，从而实现Android动态修复。
-局限性
+
 ```
+局限性
+
 不支持YunOS
 无法添加新类和新的字段
 需要使用加固前的apk制作补丁，但是补丁文件很容易被反编译，也就是修改过的类源码容易泄露。
 使用加固平台可能会使热补丁功能失效（看到有人在360加固提了这个问题，自己还未验证）。
+
 ```
 
 8. [Android 动态加载dex](http://blog.dreamtobe.cn/2015/12/07/android_dynamic_dex/)
