@@ -18,3 +18,4 @@ Android Dynamic loading(Android动态加载技术汇总)
 
 6. [AndFix](https://github.com/alibaba/AndFix): 支付宝团队开发的产品。` 局限性： 不支持YunOS;无法添加新类和新的字段；需要使用加固前的apk制作补丁，但是补丁文件很容易被反编译，也就是修改过的类源码容易泄露；使用加固平台可能会使热补丁功能失效（看到有人在360加固提了这个问题，自己还未验证）。`
 关于AndFix介绍的一些文章：[AndFix使用说明](http://www.jianshu.com/p/479b8c7ec3e3)
+9. [RocooFix](https://github.com/dodola/RocooFix)：该项目是HotFix项目作者的又一新作。之前的HotFix项目太过简单，也有很多同学用Nuwa遇到很多问题，作者也不再修复，所以重新构建了一套工具。
